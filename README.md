@@ -1,44 +1,64 @@
 # 📊 Sales Decision Dashboard – Power BI
 
-Ce projet simule un environnement de décision commerciale basé sur un tableau de bord Power BI interactif, construit à partir de données synthétiques générées avec Python et Faker.
+Ce projet simule un environnement décisionnel à partir de données de ventes générées artificiellement. Il met en œuvre un tableau de bord interactif sous Power BI pour illustrer un cas d’usage de data visualisation complète, de la génération des données à leur exploitation analytique.
 
-## 📌 Objectifs
+---
 
-- Générer un dataset réaliste de ventes e-commerce
-- Créer un rapport Power BI avec KPI, cartes, segments, filtres et tendances
-- Illustrer un flux complet de données jusqu’à la visualisation décisionnelle
+## 🎯 Objectifs
+
+- Générer un jeu de données réaliste (produits, clients, commandes) à l’aide de Python et Faker
+- Concevoir un tableau de bord Power BI pour appuyer la prise de décision
+- Explorer les ventes par segment, région, canal de paiement et type d’appareil
+
+---
 
 ## 🧪 Données
 
-Les données sont générées à l’aide d’un script Python :
-- Catégories de produits, quantités, prix, pays
-- Méthode de paiement, statut, type d’appareil
-- Champs temporels exploitables (mois, saisonnalité)
+Les données sont générées à l’aide d’un script Python personnalisé :
 
-📁 Fichier CSV : `data/sales_data.csv`  
-📄 Script : `scripts/generate_data.py`
+- Produits, catégories, revenus, quantités
+- Langue préférée, région, type d’appareil
+- Méthode de paiement, opérateur, statut
+- Ancienneté client, âge, churn, etc.
 
-## 📈 Dashboard Power BI
+📁 Fichier CSV généré : `data/sales_data.csv`  
+📜 Script Python : `scripts/generate_data.py`
 
-Le rapport comporte :
-- KPI
-- Carte géographique des ventes
-- Répartition par catégories / méthodes de paiement
-- Filtres dynamiques et segmentation client
+---
 
-📄 Rapport : `report/Sales_Decision_making.pbix`  
-📷 Voir la section [Aperçu](#aperçu)
+## 📈 Contenu du rapport Power BI
 
-## 🖼️ Aperçu
+Le rapport contient :
 
-![Dashboard Power BI](screenshots/dashboard_overview.png)
+- ✅ Indicateurs clés : Total des ventes, panier moyen, nombre de commandes
+- 🌍 Carte géographique des ventes par région
+- 📦 Analyse par catégories, méthodes de paiement, type d’appareil
+- 🎛️ Filtres interactifs : statut de commande, opérateur, région
+- 📊 Segmentation client : churn, ancienneté, langue
 
-## 🔧 Technologies
+📄 Rapport Power BI disponible dans :  
+`report/Sales_Decision_making.pbix`
 
-- Python (Faker, Pandas)
-- Power BI Desktop
-- GitHub
+---
+
+## 🧰 Technologies
+
+- **Python 3** (Faker, Pandas)
+- **Power BI Desktop**
+- Git, GitHub
+
+---
 
 ## 📄 Licence
 
 Projet open-source sous licence MIT.
+
+---
+
+## 🙋‍♂️ Auteur
+
+**El Mehdi El Youbi Rmich**  
+📧 mehdi.eloubi@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/el-mehdi-el-youbi-rmich-574941249)  
+💻 [GitHub](https://github.com/elmehdi03)
+
