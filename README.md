@@ -30,7 +30,7 @@ Les données sont générées à l’aide d’un script Python personnalisé :
 
 Le rapport contient :
 
-- ✅ Indicateurs clés : Total des ventes, panier moyen, nombre de commandes
+- ✅ Indicateurs clés : Total des ventes...
 - 🌍 Carte géographique des ventes par région
 - 📦 Analyse par catégories, méthodes de paiement, type d’appareil
 - 🎛️ Filtres interactifs : statut de commande, opérateur, région
